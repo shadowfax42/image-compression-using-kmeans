@@ -1,11 +1,8 @@
 """
-ISYE 7640 Homework 1
-@Author: Siham Elmali
-
 Step by step process for the k-means algorithm:
 1- load the image to a numpy array
 2- pick initial cluster centers from the data
-3- calculate the distance from each pixel to the cluster centers
+3- calculate the distances from each pixel to the cluster centers
 4- assign each pixel to a cluster based on the minimum distance (return the index)
 5- calculate the mean of all of the pixels in each cluster
 6- use the mean as the new cluster centers
